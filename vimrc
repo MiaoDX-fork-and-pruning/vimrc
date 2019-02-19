@@ -45,6 +45,8 @@ call vundle#begin()
     " Plugin 'junegunn/seoul256.vim'
     Plugin 'morhetz/gruvbox'
 
+    Plugin 'rhysd/vim-grammarous'               " grammar checking
+
     "-------------------=== Snippets support ===--------------------
     Plugin 'garbas/vim-snipmate'                " Snippets manager
     Plugin 'MarcWeber/vim-addon-mw-utils'       " dependencies #1
