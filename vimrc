@@ -309,8 +309,8 @@ let g:riv_disable_folding=1
 
 " python executables for different plugins
 
-let g:pymode_python='python'
-let g:syntastic_python_python_exec='python'
+let g:pymode_python='python3'
+let g:syntastic_python_python_exec='python3'
 
 " warnings
 let g:pymode_warnings = 1
@@ -476,7 +476,7 @@ autocmd QuickFixCmdPost *grep* cwindow
 let g:vim_markdown_folding_disabled = 1
 " let g:vim_markdown_no_default_key_mappings = 1
 let g:vim_markdown_toc_autofit = 1
-set conceallevel=2
+set conceallevel=0 " make sure the ``` can be seen in md files
 let g:tex_conceal = ""
 let g:vim_markdown_math = 1
 let g:vim_markdown_fenced_languages = ['python=py']
